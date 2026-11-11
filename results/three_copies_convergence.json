@@ -1,0 +1,151 @@
+{
+ "standard": {
+  "input degrees": 500,
+  "output degrees": 260,
+  "input grid": [
+   -16,
+   16,
+   32001
+  ],
+  "output grid": [
+   -9,
+   9,
+   7201
+  ],
+  "positions sampled on each segment": [
+   "0",
+   "+eps/2",
+   "-eps/2"
+  ],
+  "sup norms": "maximum over the input grid"
+ },
+ "fine": {
+  "input degrees": 600,
+  "output degrees": 320,
+  "input grid": [
+   -18,
+   18,
+   72001
+  ],
+  "output grid": [
+   -10,
+   10,
+   16001
+  ],
+  "positions sampled on each segment": [
+   "0",
+   "+eps/2",
+   "-eps/2"
+  ],
+  "sup norms": "maximum over the input grid"
+ },
+ "cases": [
+  {
+   "q": 0.2,
+   "d": 0.25,
+   "sup norm of g": 0.12500009249909413,
+   "predicted limit (standard)": 4.328552909964825e-19,
+   "predicted limit (fine)": 4.328552957221934e-19,
+   "relative change": 1.091753065729506e-08,
+   "largest change in F''(0)/prediction over the five eps": 0.0028158632339909673,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  },
+  {
+   "q": 0.2,
+   "d": 0.08333333333333333,
+   "sup norm of g": 0.04166667693158628,
+   "predicted limit (standard)": 5.3306290716092296e-21,
+   "predicted limit (fine)": 5.330629247855611e-21,
+   "relative change": 3.306296103566808e-08,
+   "largest change in F''(0)/prediction over the five eps": 0.07723608799278736,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  },
+  {
+   "q": 0.5,
+   "d": 0.25,
+   "sup norm of g": 0.12494795698207053,
+   "predicted limit (standard)": 5.35542996707584e-12,
+   "predicted limit (fine)": 5.3554299670107075e-12,
+   "relative change": 1.2161938123256277e-11,
+   "largest change in F''(0)/prediction over the five eps": 3.9888092828732624e-10,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  },
+  {
+   "q": 0.5,
+   "d": 0.08333333333333333,
+   "sup norm of g": 0.041660870783427076,
+   "predicted limit (standard)": 6.639799905917072e-14,
+   "predicted limit (fine)": 6.639799905758016e-14,
+   "relative change": 2.3954949135429615e-11,
+   "largest change in F''(0)/prediction over the five eps": 7.019593795121182e-09,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  },
+  {
+   "q": 0.5714285714285714,
+   "d": 0.25,
+   "sup norm of g": 0.12523206589226643,
+   "predicted limit (standard)": 1.5316852494879883e-10,
+   "predicted limit (fine)": 1.5316852494781697e-10,
+   "relative change": 6.410316721883191e-12,
+   "largest change in F''(0)/prediction over the five eps": 1.347233435922135e-11,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  },
+  {
+   "q": 0.5714285714285714,
+   "d": 0.08333333333333333,
+   "sup norm of g": 0.04164298894932728,
+   "predicted limit (standard)": 1.8942621114753373e-12,
+   "predicted limit (fine)": 1.894262111462893e-12,
+   "relative change": 6.569522703614439e-12,
+   "largest change in F''(0)/prediction over the five eps": 1.2922640735268942e-10,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  },
+  {
+   "q": 0.9,
+   "d": 0.25,
+   "sup norm of g": 0.23084182845466905,
+   "predicted limit (standard)": 4.287845210505502e-05,
+   "predicted limit (fine)": 4.287845210477787e-05,
+   "relative change": 6.463607427065199e-12,
+   "largest change in F''(0)/prediction over the five eps": 2.1871393585115584e-13,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  },
+  {
+   "q": 0.9,
+   "d": 0.08333333333333333,
+   "sup norm of g": 0.052647380545501235,
+   "predicted limit (standard)": 4.195377614968257e-07,
+   "predicted limit (fine)": 4.1953776149412227e-07,
+   "relative change": 6.4437344349244086e-12,
+   "largest change in F''(0)/prediction over the five eps": 2.7755575615628914e-13,
+   "passes (standard, fine)": [
+    true,
+    true
+   ]
+  }
+ ],
+ "ok": true,
+ "largest relative change in the predicted limit": 3.306296103566808e-08,
+ "cases matched": true
+}

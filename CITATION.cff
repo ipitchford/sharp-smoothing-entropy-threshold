@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: software
+title: "A sharp smoothing inequality in Gauss space and the exact threshold for local entropy concavity"
+abstract: "Unrefereed research candidate. Near the Gaussian, the entropy of a noisy mixture of two copies of a symmetric signal is concave in the mixing weight exactly when the signal fraction is at most 4/7 (total signal-to-noise ratio 4/3); with three or more copies, concavity on the whole simplex of weights fails at every signal fraction. The proof rests on a sharp smoothing inequality for bounded functions in Gauss space."
+authors:
+  - name: "Anonymous"
+version: "0.1.0-candidate"
+date-released: "2026-11-11"
+doi: "10.5281/zenodo.24144687"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24144687"
+    description: "This version"
+  - type: doi
+    value: "10.5281/zenodo.24144686"
+    description: "All versions (concept DOI)"
+repository-code: "https://github.com/ipitchford/sharp-smoothing-entropy-threshold"
+url: "https://evidencepress.org/releases/sharp-smoothing-entropy-threshold/"
+license: CC0-1.0
+keywords:
+  - differential entropy
+  - entropy concavity
+  - Ball-Nayar-Tkocz conjecture
+  - Gaussian smoothing
+  - Ornstein-Uhlenbeck semigroup
+  - noise stability
+  - signal-to-noise ratio
+preferred-citation:
+  type: article
+  title: "A sharp smoothing inequality in Gauss space and the exact threshold for local entropy concavity"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  doi: "10.5281/zenodo.24144687"
+  publisher:
+    name: "Zenodo"
+  notes: "Version 0.1.0-candidate; unrefereed"

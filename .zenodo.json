@@ -1,0 +1,95 @@
+{
+ "title": "A sharp smoothing inequality in Gauss space and the exact threshold for local entropy concavity",
+ "upload_type": "publication",
+ "publication_type": "preprint",
+ "description": "<p><strong>Unrefereed research candidate.</strong> In one sentence: near the Gaussian, the entropy of a noisy mixture of two copies of a symmetric signal is concave in the mixing weight exactly when the signal fraction is at most 4/7 (total signal-to-noise ratio 4/3), while with three or more copies concavity on the whole simplex of weights fails at every signal fraction.</p><p>Take two independent copies of a symmetric random variable, mix them with weights &radic;t and &radic;(1&minus;t), and add Gaussian noise; the signal fraction q is the share of the output variance that comes from the signal. Ball, Nayar and Tkocz conjectured that the entropy of the mixture is concave in t (without noise, for log-concave inputs). Luo (2026) disproved this and showed that symmetric near-Gaussian counterexamples exist for every q in (4/7, 1]. Schubr (2026) proved local concavity near the Gaussian for q &lt; 1/2, and the Evidence Press release <em>The critical signal fraction for local entropy concavity</em> (doi:10.5281/zenodo.23910629) for q &lt; 4/7, leaving q = 4/7 open. This paper settles the endpoint and extends that release: there is one radius &delta;<sub>*</sub> &gt; 0, valid for every q &le; 4/7 (&delta;<sub>*</sub> = 10<sup>&minus;8</sup> in the relative supremum norm is admissible), within which every admissible symmetric input has a concave entropy curve (Theorem C). With Luo's theorem, written out here with Luo's proof as Theorem D, the local-concavity set is exactly (0, 4/7], in the relative supremum norm and in every relative C<sup>m</sup><sub>b</sub> norm. The proof rests on a sharp smoothing inequality for bounded functions in Gauss space (Theorem A): for Ornstein&ndash;Uhlenbeck levels r &lt; s &lt; 1 it gives the largest exponent E(r,s) in &Vert;T<sub>&radic;s</sub>g&Vert;<sub>2</sub><sup>2</sup> &le; C&Vert;g&Vert;<sub>&infin;</sub><sup>2&minus;E</sup>&Vert;T<sub>&radic;r</sub>g&Vert;<sub>2</sub><sup>E</sup>; E &ge; 1 exactly when s &le; &radic;(2r(1+r)) &minus; r, Luo's critical level, where the inequality holds with a logarithmic gain; Theorem B is a weighted form. For three or more copies (Theorem E), a fourth-cumulant obstruction of Madiman, Nayar and Tkocz (2020) is already present for three summands with noise: at each q in (0,1) there are smooth, strongly log-concave symmetric inputs arbitrarily close to the Gaussian whose entropy is not concave on the simplex, with the failure near a face; with Luo's theorem on an edge, no signal fraction in (0,1] gives local concavity on the whole simplex. Concavity on a fixed interior region of the simplex remains open. The effects are minute (the proved neighbourhood allows the input density to differ from the Gaussian density by a factor of at most 1 &plusmn; 10<sup>&minus;8</sup>; the largest computed failure signal is about 6&times;10<sup>&minus;8</sup> nats); the interest is structural.</p><p>The archive contains the paper (PDF and Markdown source), three figures, eleven Python check scripts plus comparison and figure scripts, the outputs of one complete run, a one-command replay (run_all.sh) that compares regenerated outputs with the shipped ones byte for byte, the software environment, the bibliography, a rating-free summary of the internal review, the research-gate record, CI and SHA-256 sums. Assurance: written analytic proofs; the computations are finite-precision diagnostics, not interval certificates and not part of any proof; internal AI-assisted review only (not peer review, independent reproduction or formal verification). Creator: Anonymous. Text, data and figures CC0-1.0; code MIT.</p>",
+ "creators": [
+  {
+   "name": "Anonymous"
+  }
+ ],
+ "access_right": "open",
+ "license": "cc-zero",
+ "version": "0.1.0-candidate",
+ "publication_date": "2026-11-11",
+ "keywords": [
+  "differential entropy",
+  "entropy concavity",
+  "Ball-Nayar-Tkocz conjecture",
+  "Gaussian smoothing",
+  "Ornstein-Uhlenbeck semigroup",
+  "noise stability",
+  "Hermite functions",
+  "signal-to-noise ratio",
+  "entropy power inequality",
+  "information theory"
+ ],
+ "notes": "Code (the .py files, run_all.sh and the CI workflow) is MIT; prose, manuscript, figures and data are CC0-1.0.",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/ipitchford/sharp-smoothing-entropy-threshold/tree/v0.1.0-candidate",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://evidencepress.org/releases/sharp-smoothing-entropy-threshold/",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  },
+  {
+   "identifier": "10.4064/sm8418-6-2016",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1214/12-AOP780",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1112/mtk.12246",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1214/17-AOP1242",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1007/978-3-030-46762-3_7",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.jfa.2013.09.017",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1017/CBO9781139814782",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.5281/zenodo.23910629",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "arXiv:2609.11418",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2610.22386",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "https://research.luminaryoddities.org/local-and-eventual-entropy-concavity-under-gaussian-smoothing/v/3",
+   "relation": "references",
+   "scheme": "url"
+  }
+ ]
+}

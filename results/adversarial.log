@@ -1,0 +1,19 @@
+Gram at level r: max |G_jk|/max(G_jj,G_kk) (k<=30) 7.46e-09; near-diagonal normalised (k<=16) 7.07e-13; diagonal rel err 4.26e-08
+h_k, a=a_r, k even <=120           n=  61 rho0<=0.7274 rho1<=0.5393 level<=1.0000,0.9631
+sign(h_k), a=a_r                   n=  61 rho0<=1.0000 rho1<=0.7546 level<=0.9999,0.9994
+clip(c h_k), a=a_r                 n=  93 rho0<=0.9950 rho1<=0.7551 level<=1.0000,0.9998
+h_k other a                        n= 147 rho0<=0.8838 rho1<=0.5192 level<=1.0000,0.9945
+cos(w x)                           n=  70 rho0<=0.9804 rho1<=0.6187 level<=0.9996,0.9999
+chirps cos(b x^2 + w x)            n=  16 rho0<=0.9859 rho1<=0.6105 level<=0.9996,0.9999
+spikes                             n=  12 rho0<=0.9619 rho1<=0.4197 level<=0.9982,0.9945
+gaussian packets                   n=  48 rho0<=0.9546 rho1<=0.4923 level<=0.9996,0.9998
+windowed h_k (bulk, amplitude 1)   n=  45 rho0<=0.1510 rho1<=0.3652 level<=0.9999,0.9896
+tanh(random sums of h_k)           n= 200 rho0<=0.9941 rho1<=0.7706 level<=1.0000,1.0000
+optimised rho0, levels<=12         n=   1 rho0<=1.0000 rho1<=0.0009 level<=0.9946,0.9994
+optimised rho0, levels<=40         n=   1 rho0<=1.0000 rho1<=0.0014 level<=0.9946,0.9994
+optimised rho0, levels<=80         n=   1 rho0<=1.0000 rho1<=0.0003 level<=0.9946,0.9994
+optimised rho1, levels<=12         n=   1 rho0<=0.5251 rho1<=0.8239 level<=0.9674,0.6417
+optimised rho1, levels<=40         n=   1 rho0<=0.5252 rho1<=0.8239 level<=0.9673,0.6413
+optimised rho1, levels<=80         n=   1 rho0<=0.5231 rho1<=0.8239 level<=0.9676,0.6425
+constants: J_end = 11.8489, C_E1 = 7.9899
+ALL OK

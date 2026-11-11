@@ -1,0 +1,139 @@
+{
+ "ok": true,
+ "tau_a(s) = kappa": {
+  "ok": true,
+  "value": 0.38196601125010515
+ },
+ "B_a < 1.34": {
+  "ok": true,
+  "value": 1.3314862148183002
+ },
+ "varsigma < 1.01": {
+  "ok": true,
+  "value": 1.0053935067073787
+ },
+ "B_a dominates the finite maximum of ||h_k||_1/(||h_k||^2 (k+1)^(1/4))": {
+  "ok": true,
+  "value": 1.0000000000047746
+ },
+ "C_tau < 54": {
+  "ok": true,
+  "value": 53.83281572999748
+ },
+ "eps0 < 1": {
+  "ok": true,
+  "value": 0.7061267297367757
+ },
+ "C_L < 2.4": {
+  "ok": true,
+  "value": 2.3858133951154104
+ },
+ "C_L dominates the finite maximum": {
+  "ok": true,
+  "value": 1.0217114485659644
+ },
+ "a^2 (1-s)^2 = 1/5": {
+  "ok": true,
+  "value": 0.2
+ },
+ "C_U^2 (p = 0) < 6.6": {
+  "ok": true,
+  "value": 6.546862474919851
+ },
+ "C_U^2 (p = 1, k >= 1) < 64": {
+  "ok": true,
+  "value": 63.43233643559723
+ },
+ "C_U^2 (p = 1, k = 0) < 28": {
+  "ok": true,
+  "value": 27.10203603953316
+ },
+ "p = 0 bound dominates the finite maximum": {
+  "ok": true,
+  "value": 1.2133337568071856
+ },
+ "p = 1 bound dominates the finite maximum and the limit": {
+  "ok": true,
+  "value": 2.122049651800663
+ },
+ "B_a < 1.3315 (displayed)": {
+  "ok": true,
+  "value": 1.3314862148183002
+ },
+ "varsigma < 1.0054 (displayed)": {
+  "ok": true,
+  "value": 1.0053935067073787
+ },
+ "(1+x)/(x(1-x)^3) < 46.98 (displayed)": {
+  "ok": true,
+  "value": 46.97871376374779
+ },
+ "(1-x)^(-2) < 6.86 (displayed)": {
+  "ok": true,
+  "value": 6.854101966249685
+ },
+ "eps0^(-2) < 2.006 (displayed)": {
+  "ok": true,
+  "value": 2.0055555555555555
+ },
+ "(2/(e eps0 log 2))^2 2^eps0 < 3.687 (displayed)": {
+  "ok": true,
+  "value": 3.6865500007565655
+ },
+ "C_L^2 < 5.693 (displayed)": {
+  "ok": true,
+  "value": 5.6921055563121215
+ },
+ "C_L < 2.39 (displayed)": {
+  "ok": true,
+  "value": 2.3858133951154104
+ },
+ "2/sqrt(Pi_a(s)) < 1.0233 (displayed)": {
+  "ok": true,
+  "value": 1.0232448083564198
+ },
+ "(1-theta)^(-1/2) < 1.6542 (displayed)": {
+  "ok": true,
+  "value": 1.6541063984822106
+ },
+ "sup (y+1)^(3/2) theta^(y/2) < 4.7441 (displayed)": {
+  "ok": true,
+  "value": 4.74403256245296
+ },
+ "bracket < 6.399 (displayed)": {
+  "ok": true,
+  "value": 6.39813896093517
+ },
+ "1.0233 * 6.399 < 6.55 (displayed)": {
+  "ok": true,
+  "value": 6.5480967
+ },
+ "2/sqrt(Pi_a(s e^(1/2))) < 1.1164 (displayed)": {
+  "ok": true,
+  "value": 1.116398013780383
+ },
+ "exp(5 a s/2) < 4.441 (displayed)": {
+  "ok": true,
+  "value": 4.440255789355183
+ },
+ "2 * 1.1164 * 4.441 * 6.399 < 63.46 < 64 (displayed)": {
+  "ok": true,
+  "value": 63.4516188552
+ },
+ "C_U^2 (p = 1, k = 0) < 27.11 (displayed)": {
+  "ok": true,
+  "value": 27.10203603953316
+ },
+ "sqrt(6.55 * 63.46) (product of the p = 0 and p = 1 constants)": 20.387814988369893,
+ "C_{2/7} <= 64 * 54^2 * 2.4 * 1.01 * 1.34 < 6.1e5": {
+  "ok": true,
+  "value": 606184.61184
+ },
+ "A(1e-8) * 1e-8 < 0.02 < 1/16": {
+  "ok": true,
+  "value": 0.019034667635017766
+ },
+ "largest delta allowed by these constants": 3.250304940320781e-08,
+ "largest delta with the product constant (optional sharpening, not claimed)": 1.0267107597913292e-07,
+ "indicative radius from ingredients.py (not certified)": 0.0015387896438853448
+}

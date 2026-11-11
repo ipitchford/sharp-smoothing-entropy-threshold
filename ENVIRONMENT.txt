@@ -1,0 +1,24 @@
+Software versions with which the results in results/ and figures/ were produced (11 November 2026)
+
+  Platform    macOS 27.2, arm64 (Apple silicon), double precision IEEE 754
+  Python      3.13.5
+  numpy       2.5.3
+  scipy       1.18.1
+  mpmath      1.4.1
+  matplotlib  3.11.2   (figures only)
+  pandoc      3.9      (paper.pdf from paper.md)
+  Tectonic    0.17.0   (PDF engine)
+
+The files in results/ and figures/ are the outputs of one complete run of `sh run_all.sh DIR` in this
+environment, started with
+
+  PYTHONDONTWRITEBYTECODE=1 uv run --no-project --python 3.13 --with numpy==2.5.3 --with scipy==1.18.1 \
+      --with mpmath==1.4.1 --with matplotlib==3.11.2 sh run_all.sh DIR
+
+A second complete run in the same environment reproduced every JSON file byte for byte (ALL REPRODUCED).
+
+The first version of this package (10 November 2026) was produced on Linux x86-64 with Python 3.13.18,
+the same numpy, scipy, mpmath and matplotlib versions, pandoc 3.1.3 and XeTeX. A replay of those scripts
+on the macOS machine above (11 November 2026) passed every check; its JSON files differed from the Linux
+ones only in rounding-level entries. Other versions of the floating-point libraries may change last
+digits; every check has a tolerance and should still print ALL OK.

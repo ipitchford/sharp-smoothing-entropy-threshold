@@ -1,0 +1,10 @@
+q=0.2000 d=0.2500 sup=0.125 limit=+4.3286e-19 rel.change=1.09e-08 ratio shift=2.82e-03 pass=True,True
+q=0.2000 d=0.0833 sup=0.042 limit=+5.3306e-21 rel.change=3.31e-08 ratio shift=7.72e-02 pass=True,True
+q=0.5000 d=0.2500 sup=0.125 limit=+5.3554e-12 rel.change=1.22e-11 ratio shift=3.99e-10 pass=True,True
+q=0.5000 d=0.0833 sup=0.042 limit=+6.6398e-14 rel.change=2.40e-11 ratio shift=7.02e-09 pass=True,True
+q=0.5714 d=0.2500 sup=0.125 limit=+1.5317e-10 rel.change=6.41e-12 ratio shift=1.35e-11 pass=True,True
+q=0.5714 d=0.0833 sup=0.042 limit=+1.8943e-12 rel.change=6.57e-12 ratio shift=1.29e-10 pass=True,True
+q=0.9000 d=0.2500 sup=0.231 limit=+4.2878e-05 rel.change=6.46e-12 ratio shift=2.19e-13 pass=True,True
+q=0.9000 d=0.0833 sup=0.053 limit=+4.1954e-07 rel.change=6.44e-12 ratio shift=2.78e-13 pass=True,True
+largest relative change: 3.306e-08
+ALL OK

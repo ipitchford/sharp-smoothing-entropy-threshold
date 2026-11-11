@@ -1,0 +1,312 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 11 November 2026 for 0.1.0-candidate from the paper's priority report (Appendix C, search of 10 November 2026), the internal review of 10-11 November 2026 (REVIEW_SUMMARY.md) and registry retrieval of every reference. It records scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "Theorem A(d) and Theorem B: supremum-norm smoothing inequality at the critical level s = b(r), with a logarithmic gain, and its weighted form",
+   "unit": "statement",
+   "paperLocation": "Section 1.3; Section 5",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv (abstract, HTML and PDF pages), Luminary Research Archive, Zenodo, GitHub, publisher pages, general web search (paper Appendix C.3)",
+     "query": "Ball-Nayar-Tkocz entropy concavity near-Gaussian 4/7 signal fraction; Luo Problem 10.1/10.2; citers of arXiv:2609.11418; local entropy concavity endpoint uniform neighbourhood"
+    },
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv, web search (paper Appendix C.3)",
+     "query": "Ornstein-Uhlenbeck semigroup bounded function noise stability two correlations exponent; Hermite functions coefficient growth; Mehler kernel comparison L-infinity sharp exponent; interpolation hypercontractivity harmonic oscillator"
+    },
+    {
+     "date": "2026-11-11",
+     "corpus": "internal review agents (literature checks), full texts of Abu-Ajamieh 2026 v1 and Schubr 2026 ed. 3; Evidence Press release feed",
+     "query": "Abu-Ajamieh endpoint identity and sign condition; Schubr Theorems 1.3-1.6; Luo Theorem 1.2 strength; Evidence Press releases on entropy concavity"
+    }
+   ],
+   "closestPriorWork": "Luo 2026, Theorem F.1 (L^2(dx) inputs, endpoint included); Evidence Press release 10.5281/zenodo.23910629, Lemma I.2 (supremum norm, s < b(r)) and Proposition S (failure for s > b(r))",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Theorem A(b),(c): the sharp exponent E(r,s) = 2 log tau_r(s) / log lambda_r for every pair of levels, for bounded functions",
+   "unit": "statement",
+   "paperLocation": "Section 1.3; Section 5",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv, web search (paper Appendix C.3)",
+     "query": "Ornstein-Uhlenbeck semigroup bounded function noise stability two correlations exponent; Hermite functions coefficient growth; Mehler kernel comparison L-infinity sharp exponent; interpolation hypercontractivity harmonic oscillator"
+    },
+    {
+     "date": "2026-11-11",
+     "corpus": "internal review agents (literature checks), full texts of Abu-Ajamieh 2026 v1 and Schubr 2026 ed. 3; Evidence Press release feed",
+     "query": "Abu-Ajamieh endpoint identity and sign condition; Schubr Theorems 1.3-1.6; Luo Theorem 1.2 strength; Evidence Press releases on entropy concavity"
+    }
+   ],
+   "closestPriorWork": "the same two results, which concern the linear case only; the square-integrable baseline 2 log s / log r (Remark 1.1, elementary)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Theorem C: 4/7 belongs to the local-concavity set, with one radius for all q <= 4/7 (1e-8 admissible); hence C = (0,4/7], also in every relative C^m_b norm",
+   "unit": "statement",
+   "paperLocation": "Section 1.3; Section 6",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv (abstract, HTML and PDF pages), Luminary Research Archive, Zenodo, GitHub, publisher pages, general web search (paper Appendix C.3)",
+     "query": "Ball-Nayar-Tkocz entropy concavity near-Gaussian 4/7 signal fraction; Luo Problem 10.1/10.2; citers of arXiv:2609.11418; local entropy concavity endpoint uniform neighbourhood"
+    },
+    {
+     "date": "2026-11-11",
+     "corpus": "internal review agents (literature checks), full texts of Abu-Ajamieh 2026 v1 and Schubr 2026 ed. 3; Evidence Press release feed",
+     "query": "Abu-Ajamieh endpoint identity and sign condition; Schubr Theorems 1.3-1.6; Luo Theorem 1.2 strength; Evidence Press releases on entropy concavity"
+    }
+   ],
+   "closestPriorWork": "Schubr 2026 Theorem 1.1 (q < 1/2); Evidence Press release 10.5281/zenodo.23910629 (q < 4/7, radius vanishing at 4/7); Luo 2026 Problem 10.2 (stated open)",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Lemmas 6.1-6.5 and the assembly of Section 6 (entropy-energy scheme for F'')",
+   "unit": "proof",
+   "paperLocation": "Section 6",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv (abstract, HTML and PDF pages), Luminary Research Archive, Zenodo, GitHub, publisher pages, general web search (paper Appendix C.3)",
+     "query": "Ball-Nayar-Tkocz entropy concavity near-Gaussian 4/7 signal fraction; Luo Problem 10.1/10.2; citers of arXiv:2609.11418; local entropy concavity endpoint uniform neighbourhood"
+    },
+    {
+     "date": "2026-11-11",
+     "corpus": "internal review agents (literature checks), full texts of Abu-Ajamieh 2026 v1 and Schubr 2026 ed. 3; Evidence Press release feed",
+     "query": "Abu-Ajamieh endpoint identity and sign condition; Schubr Theorems 1.3-1.6; Luo Theorem 1.2 strength; Evidence Press releases on entropy concavity"
+    }
+   ],
+   "closestPriorWork": "Schubr 2026, Section 2 (Lemma 6.1 is his equation (11))",
+   "verdict": "known-cited"
+  },
+  {
+   "claim": "Theorem D: failure of two-copy local concavity for q in (4/7,1]",
+   "unit": "statement",
+   "paperLocation": "Section 1.3; Appendix D",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv (abstract, HTML and PDF pages), Luminary Research Archive, Zenodo, GitHub, publisher pages, general web search (paper Appendix C.3)",
+     "query": "Ball-Nayar-Tkocz entropy concavity near-Gaussian 4/7 signal fraction; Luo Problem 10.1/10.2; citers of arXiv:2609.11418; local entropy concavity endpoint uniform neighbourhood"
+    },
+    {
+     "date": "2026-11-11",
+     "corpus": "internal review agents (literature checks), full texts of Abu-Ajamieh 2026 v1 and Schubr 2026 ed. 3; Evidence Press release feed",
+     "query": "Abu-Ajamieh endpoint identity and sign condition; Schubr Theorems 1.3-1.6; Luo Theorem 1.2 strength; Evidence Press releases on entropy concavity"
+    }
+   ],
+   "closestPriorWork": "Luo 2026, Theorem 1.2 and Sections 5-7",
+   "verdict": "collision",
+   "resolution": "Stated and credited as Luo's theorem and Luo's proof ('a form of Luo's Theorem 1.2'), written out in the paper's notation with a shorter lower bound and a sharper rate; no novelty is claimed for the statement."
+  },
+  {
+   "claim": "Oscillator basis facts (Gram generating function, diagonal level r, tau(b(r))^2 = lambda) and the critical level b(r)",
+   "unit": "object",
+   "paperLocation": "Section 3",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv (abstract, HTML and PDF pages), Luminary Research Archive, Zenodo, GitHub, publisher pages, general web search (paper Appendix C.3)",
+     "query": "Ball-Nayar-Tkocz entropy concavity near-Gaussian 4/7 signal fraction; Luo Problem 10.1/10.2; citers of arXiv:2609.11418; local entropy concavity endpoint uniform neighbourhood"
+    }
+   ],
+   "closestPriorWork": "Luo 2026, Lemmas 2.2-2.4 and Appendix F (F.3), Theorem F.1",
+   "verdict": "collision",
+   "resolution": "Credited to Luo throughout ('due to Luo'); proofs included only to keep the paper self-contained."
+  },
+  {
+   "claim": "Theorem E and Corollary E': for k >= 3 copies and every q in (0,1), failure of concavity on the whole simplex near a face for arbitrarily small admissible perturbations; limit criterion at a face; C_k empty",
+   "unit": "statement",
+   "paperLocation": "Section 1.3; Section 7",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv, web search (paper Appendix C.3)",
+     "query": "entropy of weighted sum i.i.d. symmetric log-concave three summands Schur-concavity counterexample near Gaussian; fourth cumulant entropy expansion small perturbation"
+    },
+    {
+     "date": "2026-11-11",
+     "corpus": "internal review agents (literature checks), full texts of Abu-Ajamieh 2026 v1 and Schubr 2026 ed. 3; Evidence Press release feed",
+     "query": "Abu-Ajamieh endpoint identity and sign condition; Schubr Theorems 1.3-1.6; Luo Theorem 1.2 strength; Evidence Press releases on entropy concavity"
+    }
+   ],
+   "closestPriorWork": "Madiman, Nayar and Tkocz 2020, Theorem 1 (many summands, no noise); Abu-Ajamieh 2026, Theorem 3.1 and (3.16) (sign condition at a two-copy endpoint)",
+   "verdict": "partially-known-cited",
+   "verdictNote": "obstruction and construction are Madiman-Nayar-Tkocz; criterion is Abu-Ajamieh's sign condition read at a face; three summands, Gaussian noise and the face limit new in bounded search; new content is q <= 4/7"
+  },
+  {
+   "claim": "Method: coefficient bounds for bounded functions in the oscillator basis (L^1 growth k^(1/4), diagonal level, exact sizes at level s) combined by a two-sided geometric summation (Hoelder interpolation in oscillator time)",
+   "unit": "method",
+   "paperLocation": "Sections 1.5, 4, 5",
+   "searches": [
+    {
+     "date": "2026-11-10",
+     "corpus": "arXiv, web search (paper Appendix C.3)",
+     "query": "Ornstein-Uhlenbeck semigroup bounded function noise stability two correlations exponent; Hermite functions coefficient growth; Mehler kernel comparison L-infinity sharp exponent; interpolation hypercontractivity harmonic oscillator"
+    }
+   ],
+   "closestPriorWork": "Luo 2026 Appendix F (kernel comparison in a Fock space, L^2(dx)); the release's weighted kernel comparison; classical Hermite-function asymptotics",
+   "verdict": "new-in-bounded-search"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Luo 2026, arXiv:2609.11418v2",
+   "usedFor": "Theorem D and its proof; critical level b(r); oscillator facts; Problems 10.1-10.2",
+   "readWhat": "statements of all numbered results, Sections 1.2 and 5-7, Section 10, Appendices E, F and G",
+   "date": "2026-11-10",
+   "evidenceLocator": "https://arxiv.org/abs/2609.11418v2"
+  },
+  {
+   "citation": "Schubr 2026, edition 3 (Luminary Research Archive)",
+   "usedFor": "scheme of Section 6; q < 1/2 theorem; Theorems 1.3-1.6",
+   "readWhat": "Sections 1 and 2 (10 Nov); Theorems 1.3-1.6 (11 Nov)",
+   "date": "2026-11-11",
+   "evidenceLocator": "https://research.luminaryoddities.org/local-and-eventual-entropy-concavity-under-gaussian-smoothing/v/3"
+  },
+  {
+   "citation": "Abu-Ajamieh 2026, arXiv:2610.22386v1",
+   "usedFor": "endpoint identity and sign condition related to Theorem E; fixed He_4 direction",
+   "readWhat": "full text, in particular Sections 3, 5, 7 and 8",
+   "date": "2026-11-11",
+   "evidenceLocator": "https://arxiv.org/abs/2610.22386v1"
+  },
+  {
+   "citation": "Madiman, Nayar and Tkocz 2020 (LNM 2266), arXiv:1904.02314v1",
+   "usedFor": "fourth-cumulant obstruction behind Theorem E",
+   "readWhat": "Theorem 1 and its proof",
+   "date": "2026-11-10",
+   "evidenceLocator": "https://doi.org/10.1007/978-3-030-46762-3_7"
+  },
+  {
+   "citation": "Eskenazis and Gavalakis 2024, Mathematika 70(2)",
+   "usedFor": "Gaussian-mixture concavity on the simplex",
+   "readWhat": "Theorems 1 and 2 and the surrounding discussion",
+   "date": "2026-11-10",
+   "evidenceLocator": "https://doi.org/10.1112/mtk.12246"
+  },
+  {
+   "citation": "Evidence Press release 'The critical signal fraction for local entropy concavity' (0.1.0-candidate)",
+   "usedFor": "predecessor result (0,4/7) in C; open problem at 4/7; Lemma I.2 and Proposition S",
+   "readWhat": "manuscript and its note on the boundary case",
+   "date": "2026-11-10",
+   "evidenceLocator": "https://doi.org/10.5281/zenodo.23910629"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Proved radius 1e-8; the indicative 1.5e-3 is not certified and no computation measures the true radius",
+   "closingQuestion": "Would interval arithmetic on the level sums certify a larger radius cheaply?",
+   "triedOrSearched": "truncated level sums give the indicative value; Proposition 6.6 gives crude all-level bounds; an optional product sharpening gives 1.03e-7",
+   "estimatedCost": "days (interval bounds valid for all levels)",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "needs all-level interval bounds; does not change any claim",
+   "whyNotClosedNow": "constants only"
+  },
+  {
+   "limitation": "Three copies: concavity on a fixed interior region of the simplex, and for inputs matching the Gaussian fourth moment, is open",
+   "closingQuestion": "Does a known estimate give interior concavity or a moment-matched obstruction?",
+   "triedOrSearched": "Theorem E mechanism needs kappa_4 != 0 and a face; Madiman-Nayar-Tkocz and Abu-Ajamieh checked",
+   "estimatedCost": "research-level",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "new research question",
+   "whyNotClosedNow": "outside scope"
+  },
+  {
+   "limitation": "Best constant in Theorem A: is sup_r of the linear constant finite; is the exponent 1/4 of the logarithmic gain optimal",
+   "closingQuestion": "Cheap duality argument?",
+   "triedOrSearched": "Remark 5.3 limit formula and sign-polynomial test functions (best_constant.py)",
+   "estimatedCost": "days",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "open extremal problem",
+   "whyNotClosedNow": "not tractable in this revision"
+  },
+  {
+   "limitation": "Higher dimensions: only C_d contained in (0,4/7] is proved; the rest of Remark 5.4 is a sketch",
+   "closingQuestion": "Does the one-dimensional argument tensorise?",
+   "triedOrSearched": "outline in Remark 5.4 loses a power of a logarithm",
+   "estimatedCost": "days",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "needs new estimates",
+   "whyNotClosedNow": "outside scope"
+  },
+  {
+   "limitation": "Topology: threshold may move for neighbourhoods damping high Hermite levels exponentially (Remark 6.10, heuristic)",
+   "closingQuestion": "Is there a known theorem for such neighbourhoods?",
+   "triedOrSearched": "Abu-Ajamieh's fixed He_4 direction (concave up to 5/8) is consistent",
+   "estimatedCost": "days",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "labelled heuristic",
+   "whyNotClosedNow": "new research"
+  },
+  {
+   "limitation": "Same threshold for every relative C^m_b norm",
+   "closingQuestion": "Does Luo's Theorem 1.2 or an amplitude change in Appendix D close it?",
+   "triedOrSearched": "amplitude delta (N+1)^(-m-2) in Section D.5; Luo's sequence is C^m_b-small",
+   "estimatedCost": "1 h",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Three or more copies above 4/7 and at q = 1",
+   "closingQuestion": "Does the two-copy theorem on an edge of the simplex close it?",
+   "triedOrSearched": "edge reduction",
+   "estimatedCost": "under 1 h",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Numerical checks are finite-precision diagnostics, not interval certificates; end-to-end harness window [-9,9]; positive control only up to N = 80",
+   "closingQuestion": "Cheap certificate?",
+   "triedOrSearched": "exact 90-digit inputs for the positive control; convergence runs for three copies",
+   "estimatedCost": "days",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "no computation is part of any proof; certificates would not change the claims",
+   "whyNotClosedNow": "not load-bearing"
+  },
+  {
+   "limitation": "Priority rests on a bounded search (no MathSciNet, zbMATH or citation indexes)",
+   "closingQuestion": "Would an indexed search change attribution?",
+   "triedOrSearched": "Appendix C search log",
+   "estimatedCost": "requires subscription indexes",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "subscription indexes were not used",
+   "whyNotClosedNow": "stated in the paper"
+  }
+ ],
+ "extensionScout": {
+  "by": "five internal reviewer agents and an adversarial review by a second AI model",
+  "date": "2026-11-11",
+  "proposals": [
+   "edge reduction for k >= 3",
+   "topology robustness of the threshold",
+   "positive control for the end-to-end harness",
+   "noise-stability form and square-integrable baseline",
+   "best constant at the critical level",
+   "higher dimensions"
+  ],
+  "actions": [
+   "proved as Corollary E'",
+   "proved as Remark 6.9; heuristic Remark 6.10",
+   "positive_control.py with exact 90-digit inputs",
+   "Remark 1.1 and baseline.py",
+   "Remark 5.3 and best_constant.py",
+   "inclusion proved in Remark 5.4; rest labelled a sketch"
+  ]
+ }
+}

@@ -1,0 +1,28 @@
+q=4/7  N= 30  F''(1/2)=-2.6772e-24  F''/D^2=-0.9387  harness=-0.8452  D^2=2.8519e-24  corr/pair=3.6e-07  60v90=8.4e-61  tail=6.8e-158  resolved=True
+q=4/7  N= 40  F''(1/2)=-2.2188e-32  F''/D^2=-0.9540  harness=-0.7440  D^2=2.3257e-32  corr/pair=6.8e-12  60v90=1.1e-60  tail=1.3e-143  resolved=True
+q=4/7  N= 50  F''(1/2)=-1.5882e-40  F''/D^2=-0.9632  harness=-0.6825  D^2=1.6489e-40  corr/pair=5.0e-16  60v90=1.3e-60  tail=1.5e-130  resolved=True
+q=4/7  N= 80  F''(1/2)=-3.7255e-65  F''/D^2=-0.9770  harness=-0.5538  D^2=3.8132e-65  corr/pair=0.0e+00  60v90=2.3e-60  tail=6.8e-97  resolved=True
+q=0.7  N= 30  F''(1/2)=-1.1635e-21  F''/D^2=-0.6252  harness=-0.5961  D^2=1.8609e-21  corr/pair=1.3e-05  60v90=1.2e-60  tail=1.0e-124  resolved=True
+q=0.7  N= 40  F''(1/2)=+9.9063e-28  F''/D^2=+7.6819  harness=+7.8486  D^2=1.2896e-28  corr/pair=2.6e-11  60v90=1.6e-60  tail=8.6e-112  resolved=True
+q=0.7  N= 50  F''(1/2)=+2.0538e-33  F''/D^2=+264.3027  harness=+264.5399  D^2=7.7706e-36  corr/pair=2.8e-18  60v90=2.1e-60  tail=4.3e-100  resolved=True
+q=0.7  N= 80  F''(1/2)=+1.2174e-50  F''/D^2=+11032330.6162  harness=+33452.8850  D^2=1.1035e-57  corr/pair=0.0e+00  60v90=3.7e-60  tail=1.6e-70  resolved=True
+q=0.8  N= 30  F''(1/2)=+3.0963e-16  F''/D^2=+2088.9127  harness=+2088.9199  D^2=1.4823e-19  corr/pair=1.8e-08  60v90=1.5e-60  tail=1.1e-102  resolved=True
+q=0.8  N= 40  F''(1/2)=+4.8074e-20  F''/D^2=+1108801.1581  harness=+1108801.2717  D^2=4.3357e-26  corr/pair=1.4e-14  60v90=2.3e-60  tail=9.0e-91  resolved=True
+q=0.8  N= 50  F''(1/2)=+7.2899e-24  F''/D^2=+660996297.0238  harness=+660993584.5378  D^2=1.1029e-32  corr/pair=3.3e-18  60v90=2.9e-60  tail=4.3e-80  resolved=True
+q=0.8  N= 80  F''(1/2)=+2.3688e-35  F''/D^2=+201001126671068640.0000  harness=+36571171264.6407  D^2=1.1785e-52  corr/pair=3.3e-26  60v90=4.2e-60  tail=1.3e-53  resolved=True
+{
+ "q=4/7: largest F''(1/2)/D^2": -0.93873566182794,
+ "q=0.7: N with F''(1/2) > 0": [
+  40,
+  50,
+  80
+ ],
+ "q=0.8: N with F''(1/2) > 0": [
+  30,
+  40,
+  50,
+  80
+ ],
+ "all rows resolved": true
+}
+ALL OK

@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+jobs:
+  replay:
+    name: Every check script, normal and PYTHONOPTIMIZE=1 (blocking; a few minutes)
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: Run run_all.sh in a copy, normal and optimized
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          UVR="uv run --no-project --python 3.13 --with numpy==2.5.3 --with scipy==1.18.1 --with mpmath==1.4.1 --with matplotlib==3.11.2"
+          for mode in normal optimized; do
+            C="$RUNNER_TEMP/pkg-$mode"; mkdir -p "$C"; cp -R . "$C"; cd "$C"
+            if [ "$mode" = optimized ]; then export PYTHONOPTIMIZE=1; else unset PYTHONOPTIMIZE; fi
+            $UVR sh run_all.sh "$RUNNER_TEMP/out-$mode" | tee "$RUNNER_TEMP/$mode.txt" || true
+            cd "$GITHUB_WORKSPACE"
+            # Blocking: every script must have run and printed its own pass line (each exits non-zero on a failed check).
+            if grep -q '^FAILED:' "$RUNNER_TEMP/$mode.txt"; then echo "a check script failed ($mode)"; exit 1; fi
+            grep -q '^== comparison with results/' "$RUNNER_TEMP/$mode.txt" || { echo "run_all.sh did not finish ($mode)"; exit 1; }
+          done
+      - name: Byte comparison with results/ (informative on Linux; last digits may differ from macOS)
+        run: grep -h -E '^(identical|DIFFERS|new|ALL REPRODUCED|SOME FILES DIFFER)' "$RUNNER_TEMP/normal.txt" "$RUNNER_TEMP/optimized.txt"
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"

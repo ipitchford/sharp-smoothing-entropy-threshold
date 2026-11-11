@@ -1,0 +1,120 @@
+{
+ "families": {
+  "h_k, a=a_r, k even <=120": {
+   "count": 61,
+   "max_rho0": 0.7274457786748362,
+   "max_rho1": 0.5392501457473426,
+   "max_level_bound_plain": 1.0000000000000084,
+   "max_level_bound_weighted": 0.963120257525622
+  },
+  "sign(h_k), a=a_r": {
+   "count": 61,
+   "max_rho0": 0.9999999999994456,
+   "max_rho1": 0.754639421869586,
+   "max_level_bound_plain": 0.9999478021499414,
+   "max_level_bound_weighted": 0.9994058162756965
+  },
+  "clip(c h_k), a=a_r": {
+   "count": 93,
+   "max_rho0": 0.9949652386010713,
+   "max_rho1": 0.7550611307451884,
+   "max_level_bound_plain": 0.9999696254346174,
+   "max_level_bound_weighted": 0.9997876358950252
+  },
+  "h_k other a": {
+   "count": 147,
+   "max_rho0": 0.8838214286180242,
+   "max_rho1": 0.5192226391459529,
+   "max_level_bound_plain": 0.9999975887723591,
+   "max_level_bound_weighted": 0.9944795593619219
+  },
+  "cos(w x)": {
+   "count": 70,
+   "max_rho0": 0.9804227227236035,
+   "max_rho1": 0.6186560855814441,
+   "max_level_bound_plain": 0.9996472862808833,
+   "max_level_bound_weighted": 0.999945544110493
+  },
+  "chirps cos(b x^2 + w x)": {
+   "count": 16,
+   "max_rho0": 0.9859334861350718,
+   "max_rho1": 0.610496871921272,
+   "max_level_bound_plain": 0.9995593728704235,
+   "max_level_bound_weighted": 0.9999379637981375
+  },
+  "spikes": {
+   "count": 12,
+   "max_rho0": 0.9618565298919397,
+   "max_rho1": 0.4196925512073782,
+   "max_level_bound_plain": 0.998225045787219,
+   "max_level_bound_weighted": 0.9944935046209828
+  },
+  "gaussian packets": {
+   "count": 48,
+   "max_rho0": 0.9545906344890969,
+   "max_rho1": 0.4923392223266619,
+   "max_level_bound_plain": 0.9996122632093635,
+   "max_level_bound_weighted": 0.9997862490599466
+  },
+  "windowed h_k (bulk, amplitude 1)": {
+   "count": 45,
+   "max_rho0": 0.15103523570315117,
+   "max_rho1": 0.3651861179952627,
+   "max_level_bound_plain": 0.999935496752659,
+   "max_level_bound_weighted": 0.9896228693718216
+  },
+  "tanh(random sums of h_k)": {
+   "count": 200,
+   "max_rho0": 0.9940674866400374,
+   "max_rho1": 0.7705639015707212,
+   "max_level_bound_plain": 0.9999977617927024,
+   "max_level_bound_weighted": 0.9999854141560265
+  },
+  "optimised rho0, levels<=12": {
+   "count": 1,
+   "max_rho0": 0.9999966219477535,
+   "max_rho1": 0.0008808787987907475,
+   "max_level_bound_plain": 0.9946365684111927,
+   "max_level_bound_weighted": 0.9994069535482645
+  },
+  "optimised rho0, levels<=40": {
+   "count": 1,
+   "max_rho0": 0.9999949896865721,
+   "max_rho1": 0.00139957490815694,
+   "max_level_bound_plain": 0.9946367029745015,
+   "max_level_bound_weighted": 0.9994070810452168
+  },
+  "optimised rho0, levels<=80": {
+   "count": 1,
+   "max_rho0": 0.999999415678281,
+   "max_rho1": 0.0003183851492042952,
+   "max_level_bound_plain": 0.9946356375483558,
+   "max_level_bound_weighted": 0.9994060269638058
+  },
+  "optimised rho1, levels<=12": {
+   "count": 1,
+   "max_rho0": 0.5250770330008019,
+   "max_rho1": 0.8238728018019187,
+   "max_level_bound_plain": 0.9673825809749201,
+   "max_level_bound_weighted": 0.6416666210116003
+  },
+  "optimised rho1, levels<=40": {
+   "count": 1,
+   "max_rho0": 0.5251566435375218,
+   "max_rho1": 0.8238821509508331,
+   "max_level_bound_plain": 0.9673101508370339,
+   "max_level_bound_weighted": 0.6412993247915607
+  },
+  "optimised rho1, levels<=80": {
+   "count": 1,
+   "max_rho0": 0.5231319897148515,
+   "max_rho1": 0.8238738765995121,
+   "max_level_bound_plain": 0.9676484424014449,
+   "max_level_bound_weighted": 0.6424581994812492
+  }
+ },
+ "ok": true,
+ "gram_offdiag_over_larger_diagonal_k<=30": 7.464659479832526e-09,
+ "gram_near_diagonal_normalised_k<=16": 7.068436704460043e-13,
+ "gram_diag_rel_err_k<=30": 4.255856311807804e-08
+}

@@ -1,0 +1,36 @@
+ok   tau_a(s) = kappa: 0.38196601
+ok   B_a < 1.34: 1.3314862
+ok   varsigma < 1.01: 1.0053935
+ok   B_a dominates the finite maximum of ||h_k||_1/(||h_k||^2 (k+1)^(1/4)): 1.0000000000047746
+ok   C_tau < 54: 53.832816
+ok   eps0 < 1: 0.70612673
+ok   C_L < 2.4: 2.3858134
+ok   C_L dominates the finite maximum: 1.0217114
+ok   a^2 (1-s)^2 = 1/5: 0.2
+ok   C_U^2 (p = 0) < 6.6: 6.5468625
+ok   C_U^2 (p = 1, k >= 1) < 64: 63.432336
+ok   C_U^2 (p = 1, k = 0) < 28: 27.102036
+ok   p = 0 bound dominates the finite maximum: 1.2133338
+ok   p = 1 bound dominates the finite maximum and the limit: 2.1220497
+ok   B_a < 1.3315 (displayed): 1.3314862
+ok   varsigma < 1.0054 (displayed): 1.0053935
+ok   (1+x)/(x(1-x)^3) < 46.98 (displayed): 46.978714
+ok   (1-x)^(-2) < 6.86 (displayed): 6.854102
+ok   eps0^(-2) < 2.006 (displayed): 2.0055556
+ok   (2/(e eps0 log 2))^2 2^eps0 < 3.687 (displayed): 3.68655
+ok   C_L^2 < 5.693 (displayed): 5.6921056
+ok   C_L < 2.39 (displayed): 2.3858134
+ok   2/sqrt(Pi_a(s)) < 1.0233 (displayed): 1.0232448
+ok   (1-theta)^(-1/2) < 1.6542 (displayed): 1.6541064
+ok   sup (y+1)^(3/2) theta^(y/2) < 4.7441 (displayed): 4.7440326
+ok   bracket < 6.399 (displayed): 6.398139
+ok   1.0233 * 6.399 < 6.55 (displayed): 6.5480967
+ok   2/sqrt(Pi_a(s e^(1/2))) < 1.1164 (displayed): 1.116398
+ok   exp(5 a s/2) < 4.441 (displayed): 4.4402558
+ok   2 * 1.1164 * 4.441 * 6.399 < 63.46 < 64 (displayed): 63.451619
+ok   C_U^2 (p = 1, k = 0) < 27.11 (displayed): 27.102036
+ok   C_{2/7} <= 64 * 54^2 * 2.4 * 1.01 * 1.34 < 6.1e5: 606184.61
+ok   A(1e-8) * 1e-8 < 0.02 < 1/16: 0.019034668
+optional: sqrt(6.55*63.46) = 20.39 ; largest delta with it: 1.027e-7
+largest delta allowed by the rounded analytic constants: 3.25e-8
+ALL OK

@@ -1,0 +1,9 @@
+q=0.200 d=0.2500 sup=0.125 h4=+3.29e-10 K4=-3.29e-10 limit=+4.33e-19 F''(0)/limit: -259511.017 -2781.461 -27.019 +0.997 +1.000 | convex for eps<=1e-06 | chord ok at [] | two-copy -0.441 | ok
+q=0.200 d=0.0833 sup=0.042 h4=+3.65e-11 K4=-3.65e-11 limit=+5.33e-21 F''(0)/limit: -2340667.079 -25094.777 -251.695 +0.975 +1.000 | convex for eps<=1e-06 | chord ok at [] | two-copy -0.441 | ok
+q=0.500 d=0.2500 sup=0.125 h4=-1.16e-06 K4=+1.16e-06 limit=+5.36e-12 F''(0)/limit: -31.765 +0.613 +0.992 +1.000 +1.000 | convex for eps<=0.001 | chord ok at [] | two-copy -0.452 | ok
+q=0.500 d=0.0833 sup=0.042 h4=-1.29e-07 K4=+1.29e-07 limit=+6.64e-14 F''(0)/limit: -290.705 -2.117 +0.964 +1.000 +1.000 | convex for eps<=0.0001 | chord ok at [] | two-copy -0.451 | ok
+q=0.571 d=0.2500 sup=0.125 h4=-6.18e-06 K4=+6.19e-06 limit=+1.53e-10 F''(0)/limit: -2.641 +0.921 +0.995 +1.000 +1.000 | convex for eps<=0.001 | chord ok at [] | two-copy -0.454 | ok
+q=0.571 d=0.0833 sup=0.042 h4=-6.88e-07 K4=+6.88e-07 limit=+1.89e-12 F''(0)/limit: -29.080 +0.644 +0.992 +1.000 +1.000 | convex for eps<=0.001 | chord ok at [] | two-copy -0.454 | ok
+q=0.900 d=0.2500 sup=0.231 h4=-2.71e-03 K4=+3.96e-03 limit=+4.29e-05 F''(0)/limit: +0.590 +0.953 +0.995 +1.000 +1.000 | convex for eps<=0.01 | chord ok at [0.01, 0.001, 0.0001] | two-copy -0.464 | ok
+q=0.900 d=0.0833 sup=0.053 h4=-3.01e-04 K4=+3.48e-04 limit=+4.20e-07 F''(0)/limit: +0.557 +0.949 +0.995 +1.000 +1.000 | convex for eps<=0.01 | chord ok at [0.01, 0.001] | two-copy -0.463 | ok
+ALL OK
